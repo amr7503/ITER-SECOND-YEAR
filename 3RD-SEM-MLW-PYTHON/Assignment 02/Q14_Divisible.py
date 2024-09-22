@@ -1,0 +1,7 @@
+n=int(input("Enter an integer : "))
+div_by_5_and_6=(n%5==0) and (n%6==0)
+div_by_5_or_6=(n%5==0) or (n%6==0)
+div_by_5_or_6_not_both=(n%5==0) != (n%6==0)
+print(f"Is {n} divisible by 5 and 6? {div_by_5_and_6}")
+print(f"Is {n} divisible by 5 or 6? {div_by_5_or_6}")
+print(f"Is {n} divisible by 5 or 6,but not both? {div_by_5_or_6_not_both}")
