@@ -28,6 +28,5 @@ class LinearSearch{
         if(pos==-1)
         System.out.println(key+" not found");
         else
-        System.out.println(key+" found at index "+pos+" of array");
-    }
+        System.out.println(key+" found at position "+(pos+1))  }
 }
