@@ -1,8 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MaximumMinimumArray {
-    
+public class _06_MaximumMinimumArray {
+
     public static void maxmin(int[] arr){
         Arrays.sort(arr);
         int n=arr.length;
