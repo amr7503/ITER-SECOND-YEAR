@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class _05_Smallest_Positive_Missing_number {
 
-    public int firstMissingPositive(int[] arr) {
+    public static int firstMissingPositive(int[] arr) {
             int i,n;
             n=arr.length;
             int[] hash =new int[n+1];
@@ -40,7 +40,7 @@ public class _05_Smallest_Positive_Missing_number {
             arr[i]=sc.nextInt();
         }
 
-
+        System.out.println("Smallest positive missing number is "+firstMissingPositive(arr));
 
     }
 }
