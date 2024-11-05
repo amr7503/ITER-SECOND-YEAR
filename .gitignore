@@ -1,3 +1,4 @@
+out
 3RD-SEM-AAD-JAVA/.idea/.gitignore
 3RD-SEM-AAD-JAVA/.idea/misc.xml
 3RD-SEM-AAD-JAVA/.idea/modules.xml
@@ -27,3 +28,9 @@
 3RD-SEM-AAD-JAVA/out/production/Lab-Lesson-Plan/MaximumMinimumArray.class
 3RD-SEM-AAD-JAVA/.idea/uiDesigner.xml
 3RD-SEM-AAD-JAVA/.idea/
+.idea/.gitignore
+.idea/ITER-SECOND-YEAR.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea
+
