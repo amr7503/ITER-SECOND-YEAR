@@ -5,4 +5,4 @@ def fibonacci(n):
         return fibonacci(n-1)+fibonacci(n-2)
     
 n=int(input("Enter a number : "))
-print(f"Fibonacci of {n} is {fibonacci(n)}")
+print(f"{n}th fibonacci is {fibonacci(n)}")
