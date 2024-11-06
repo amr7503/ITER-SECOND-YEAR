@@ -1,3 +1,8 @@
+'''
+Write conversions to octal and hexadecimal numbers by implementing the corresponding 
+functions to_octal(n) and to_hex(n). Again, no call to int(x, base) may be used
+'''
+
 def to_octal(n):
   if n==0:
     return ""
@@ -27,3 +32,9 @@ def to_hex(n):
 n=int(input("Enter a number : "))
 print(f"Octal of {n} is {to_octal(n)}")
 print(f"Hexadecimal of {n} is {to_hex(n)}")
+
+'''
+Enter a number : 58
+Octal of 58 is 72
+Hexadecimal of 58 is 3A
+'''
