@@ -1,15 +1,17 @@
+'''Write a Python program that displays all the numbers from 100 to 1000,ten per line, that are divisibleby 5 and 6. Numbers  are separated by exactly one space'''
+
+count=0
 for i in range(100,1000):
-    print(i,end=" ")
-    if i%10==9:
-        print()
-    
+    if i%5==0 and i%6==0:
+        print(i,end=" ")
+        
+        count=count+1
+        if count%10==0:
+            print()
+
+
 """
-100 101 102 103 104 105 106 107 108 109 
-110 111 112 113 114 115 116 117 118 119
-120 121 122 123 124 125 126 127 128 129
-.....
-.....
-970 971 972 973 974 975 976 977 978 979 
-980 981 982 983 984 985 986 987 988 989 
-990 991 992 993 994 995 996 997 998 999
+120 150 180 210 240 270 300 330 360 390 
+420 450 480 510 540 570 600 630 660 690
+720 750 780 810 840 870 900 930 960 990
 """
