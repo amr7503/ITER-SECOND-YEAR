@@ -4,6 +4,9 @@ matrix. Write a Python program that reads a 3-by-4 matrix and displays the sum o
 column.
 '''
 
+def ColumnSum(mat,i):
+    return mat[0][i]+mat[1][i]+mat[2][i]
+
 mat=[]
 print("Enter a 3-by-4 matrix row by row")
 for i in range(3):
@@ -11,7 +14,7 @@ for i in range(3):
     mat.append(row)
 
 for i in range(4):
-    print("Sum of elements at column",i,"is ",mat[0][i]+mat[1][i]+mat[2][i])
+    print("Sum of elements at column",i,"is ",ColumnSum(mat,i))
 
 # OR => for row in mat: sum+=row[i]
 '''

@@ -18,7 +18,7 @@ public class _02_Find_Maximum_Minimum_recursive {
             return arr[0];
         }
         else{
-            return Math.min(arr[n-1],findMaxSimple(arr, n-1));
+            return Math.min(arr[n-1],findMinSimple(arr, n-1));
         }
     }
     static int findMax(int[] arr,int start,int end){
@@ -38,7 +38,7 @@ public class _02_Find_Maximum_Minimum_recursive {
         return Math.min(min1,min2);
     }
     public static void main(String[] args) {
-         Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         System.out.print("Enter the size of array(n) : ");
         int n=sc.nextInt();
         int[] arr=new int[n];
@@ -61,4 +61,10 @@ Enter 5 integers
 3 5 8 2 9
 Maximum element in the array is : 9
 Minimum element in the array is : 2
+----------------------------------------------
+Enter the size of array(n) : 5
+Enter 5 integers
+23 65 21 89 56
+Maximum element in the array is : 89
+Minimum element in the array is : 21
  */
