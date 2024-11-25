@@ -1,8 +1,7 @@
 '''
-Write a program that reads three integers from the user and displays themin sorted order
+Write a program that reads three integers from the user and displays them in sorted order
 (from smallest to largest). Use the min and max functions to find the smallest and largest values.
-The middle value can be found by computing the sum of all three values, 
-and then subtracting the minimum value and the maximum value.
+The middle value can be found by computing the sum of all three values, and then subtracting the minimum value and the maximum value.
 '''
 a=int(input("Enter first number : "))
 b=int(input("Enter second number : "))
