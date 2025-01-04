@@ -44,7 +44,7 @@ public class StackUsingArray
             }
         }
         ///////////////////////////////////////////////////////////
-        /* Write the code for remaining user defined methods*/
+
         public static final int MAX=10;
 
         public static void main(String[] args) {

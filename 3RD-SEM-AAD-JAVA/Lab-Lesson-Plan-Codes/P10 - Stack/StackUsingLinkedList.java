@@ -41,7 +41,7 @@ public class StackUsingLinkedList{
                 System.out.println();
             }
         }
-        /* Write the code for remaining user defined methods*/
+        
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             Node top;
