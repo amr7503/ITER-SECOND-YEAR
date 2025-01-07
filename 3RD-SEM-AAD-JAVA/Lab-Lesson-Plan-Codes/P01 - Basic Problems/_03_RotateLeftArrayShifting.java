@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RotateLeft {
+public class _03_RotateLeftArrayShifting {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of elements in the array: ");

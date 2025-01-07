@@ -1,9 +1,8 @@
-package P07;
 
 import java.util.Scanner;
 
-public class _04_ElementPair_wirh_minimum_or_maximum_difference {
-    static void minDifference(int[] arr,int n)
+public class _04_ElementPair_with_minimum_or_maximum_difference {
+    public static void minDifference(int[] arr,int n)
     {
         int min=Math.abs(arr[0]-arr[1]);
         int p1=0,p2=1;
