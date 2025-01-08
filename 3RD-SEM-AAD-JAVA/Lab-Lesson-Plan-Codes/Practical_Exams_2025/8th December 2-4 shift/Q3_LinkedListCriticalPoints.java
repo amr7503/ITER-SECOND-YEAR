@@ -6,7 +6,7 @@ class Node
     Node next;
 }
 
-public class LinkedListCriticalPoints
+public class Q3_LinkedListCriticalPoints
 {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args)
