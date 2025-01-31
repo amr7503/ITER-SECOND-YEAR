@@ -1,0 +1,36 @@
+import random
+r=random.randint(0,2)
+n=int(input("scissor (0), rock(1), paper (2): "))
+if r==0:
+    if n==0:
+        print("The computer is scissor. You are scissor too. It is a draw.")
+    elif n==1:
+        print("The computer is scissor. You are rock. You won.")
+    else:
+        print("The computer is scissor. You are paper. You lose.")
+elif r==1:
+    if n==0:
+        print("The computer is rock. You are scissor. You lose.")
+    elif n==1:
+        print("The computer is rock. You are rock too. It is a draw.")
+    else:
+        print("The computer is rock. You are paper. You won.")
+else:
+    if n==0:
+        print("The computer is paper. You are scissor. You won.")
+    elif n==1:
+        print("The computer is paper. You are rock. You lose.")
+    else:
+        print("The computer is paper. You are paper too. It is a draw.")
+
+
+
+# Output:
+# scissor (0), rock(1), paper (2): 3
+# The computer is rock. You are paper. You won.
+
+#scissor (0), rock(1), paper (2): 1
+# The computer is rock. You are rock too. It is a draw.
+ 
+# scissor (0), rock(1), paper (2): 2
+# The computer is scissor. You are paper. You lose.
